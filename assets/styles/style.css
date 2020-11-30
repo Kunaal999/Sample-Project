@@ -88,14 +88,53 @@ body{
 .caption-size{
     font-size: 1.5em;
 }
+@media screen and (max-width: 500px){
+    .green-text{
+        color: #afff0d!important;
+        font-size: 7vw!important;
+    }
+    .skyblue-text{
+        color: #27e5e5;
+        font-size: 7vw!important;
+    }
+    .yellow-text{
+        font-size: 7vw!important;
+        color: yellow;
+    }
+    .bg-padd{
+        padding: 0.5em 0.5em;
+    }
+    .btn_video {
+        padding: 1em 3.7em;
+        border: none;
+        border-radius: 13px;
+        background-color: #4c4949b3;
+    }
+    .row .features-img_section{
+        padding: 0!important;
+    }
+    .row .feature-img_section{
+        padding: 0 0.5em!important;
+    }
+}
 
 
-@media screen and (min-width: 568px) and (max-width: 767px){
+@media screen and (min-width: 501px) and (max-width: 767px){
 
     #award-wrppr .container .row,.card-wrppr_first .container,.card-wrppr_first .container .row,.card-wrppr_first,#award-wrppr,#award-wrppr .container,.card-wrppr_first .container .row .features-img_wrrpr{
         padding: 0em 0em!important;
         
     }
+    .bg-padd {
+        padding: 1em 1em;
+    }
+    .bg-padd .yellow-bg_title,.bg-padd .green-bg_title,.bg-padd .skyblue-bg_title {
+        font-size: 3.5vw;
+        padding-bottom: 12px;
+    }
+    .row .features-img_section{
+        padding: 0!important;
+    } 
     
 }
 @media screen and (min-width: 768px) and (max-width: 990px){
@@ -120,6 +159,13 @@ body{
         border-top-right-radius: 17px!important;
 
     }
+    .bg-padd {
+        padding: 1em 1em;
+    }
+    .bg-padd .yellow-bg_title,.bg-padd .green-bg_title,.bg-padd .skyblue-bg_title {
+        font-size: 3.5vw;
+        padding-bottom: 12px;
+    } 
     
 }
 @media screen and (min-width: 991px){
@@ -147,11 +193,10 @@ body{
 
     }
     .bg-padd {
-        padding-top: 9em;
-        padding: 5em 4em;
+        padding: 3em 4em;
     }
     .bg-padd .yellow-bg_title,.bg-padd .green-bg_title,.bg-padd .skyblue-bg_title {
-        font-size: 3.1em;
+        font-size: 3.5vw;
         padding-bottom: 12px;
     } 
 
